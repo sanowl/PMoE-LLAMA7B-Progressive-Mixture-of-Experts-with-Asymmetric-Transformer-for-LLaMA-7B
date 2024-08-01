@@ -1,6 +1,6 @@
 # PMoE-LLAMA7B: Progressive Mixture of Experts with Asymmetric Transformer for llama/Meta-Llama-3.1-8B
 
-This repository contains the implementation of PMoE (Progressive Mixture of Experts with Asymmetric Transformer) for the LLaMA-7B model, as described in the paper "PMoE: Progressive Mixture of Experts with Asymmetric Transformer for Continual Learning" by Min Jae Jung and JooHee Kim.
+This repository contains the implementation of PMoE (Progressive Mixture of Experts with Asymmetric Transformer) for the llama/Meta-Llama-3.1-8B, as described in the paper "PMoE: Progressive Mixture of Experts with Asymmetric Transformer for Continual Learning" by Min Jae Jung and JooHee Kim.
 
 ## Introduction
 
@@ -14,7 +14,7 @@ Large Language Models (LLMs) encounter significant challenges in continual learn
 
 ## Model Architecture
 
-The PMoE model is built on top of the LLaMA-7B model and integrates Low-Rank Adaptation (LoRA) as the expert component. The architecture consists of:
+The PMoE model is built on top of the llama/Meta-Llama-3.1-8B and integrates Low-Rank Adaptation (LoRA) as the expert component. The architecture consists of:
 
 1. **Shallow Layers**: General knowledge retention using frozen layers.
 2. **Deep Layers**: Task-specific knowledge acquisition using LoRA-based experts.
