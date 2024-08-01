@@ -1,4 +1,4 @@
-# PMoE-LLAMA7B: Progressive Mixture of Experts with Asymmetric Transformer for LLaMA-7B
+# PMoE-LLAMA7B: Progressive Mixture of Experts with Asymmetric Transformer for llama/Meta-Llama-3.1-8B
 
 This repository contains the implementation of PMoE (Progressive Mixture of Experts with Asymmetric Transformer) for the LLaMA-7B model, as described in the paper "PMoE: Progressive Mixture of Experts with Asymmetric Transformer for Continual Learning" by Min Jae Jung and JooHee Kim.
 
